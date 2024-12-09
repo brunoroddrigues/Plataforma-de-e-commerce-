@@ -1,0 +1,19 @@
+{
+  "name": "nicolas/plataforma_time",
+  "autoload": {
+    "psr-4": {
+      "Nicolas\\PlataformaTime\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Nicolas Rissi",
+      "email": "nicolasrissi15@gmail.com"
+    }
+  ],
+  "require": {
+    "chillerlan/php-qrcode": "^5.0",
+    "openboleto/openboleto": "dev-master",
+    "dompdf/dompdf": "^3.0"
+  }
+}
